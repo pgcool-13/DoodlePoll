@@ -1,4 +1,4 @@
-package com.doodlepolls.model;
+package com.doodlepoll.model;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.doodlepolls.controller;
+package com.doodlepoll.controller;
 
 import java.util.Date;
 import java.util.List;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.doodlepolls.model.Poll;
-import com.doodlepolls.service.PollService;
+import com.doodlepoll.model.Poll;
+import com.doodlepoll.service.PollService;
 
 import lombok.AllArgsConstructor;
 

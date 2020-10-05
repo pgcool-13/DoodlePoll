@@ -1,4 +1,4 @@
-package com.doodlepolls.repository;
+package com.doodlepoll.repository;
 
 import java.util.Date;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.doodlepolls.model.Poll;
+import com.doodlepoll.model.Poll;
 
 public interface PollRepository extends JpaRepository<Poll, Long> {
 

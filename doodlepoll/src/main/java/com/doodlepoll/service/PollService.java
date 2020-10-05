@@ -1,4 +1,4 @@
-package com.doodlepolls.service;
+package com.doodlepoll.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,8 +9,8 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.stereotype.Service;
 
-import com.doodlepolls.model.Poll;
-import com.doodlepolls.repository.PollRepository;
+import com.doodlepoll.model.Poll;
+import com.doodlepoll.repository.PollRepository;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
