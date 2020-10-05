@@ -2,14 +2,14 @@ package com.doodlepoll.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sun.istack.NotNull;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
 @NoArgsConstructor
 @Data
 @JsonIgnoreProperties(ignoreUnknown=true)
@@ -26,5 +26,8 @@ public class Initiator implements Serializable {
 	private String email;
 
 	private String notify;
+	
+	@Column(name="time_zone")
+	private String timeZone;
 
 }
